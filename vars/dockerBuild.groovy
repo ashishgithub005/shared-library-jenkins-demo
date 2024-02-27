@@ -1,6 +1,6 @@
 def dockerImage(){
     echo "*****************: DOcker build START:***************"
     sh "docker build -t akumar10605/k8s:tag ."
-    sh "docker push"
+    sh "docker push akumar10605/k8s:tag"
     echo "*****************: DOcker build END:***************"
 }
