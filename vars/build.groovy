@@ -1,5 +1,5 @@
 def mavenBuild(){
-    echo "Build Started"
+    echo "*****************: Maven Build START:***************"
     sh "mvn clean install"
-    echo "Build END"
+   echo "*****************: Maven Build END:***************"
 }
