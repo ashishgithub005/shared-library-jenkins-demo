@@ -1,5 +1,5 @@
 def push(tagNumber){
-    echo "*****************: DOcker build START:***************"
-    sh "docker push akumar10605/k8s:${tagNumber}"
-    echo "*****************: DOcker build END:***************"
+    echo "*****************: Docker push START:***************"
+    sh "docker push akumar10605/k8s:latest"
+    echo "*****************: Docker push END:***************"
 }
